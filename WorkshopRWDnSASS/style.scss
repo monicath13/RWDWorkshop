@@ -1,0 +1,72 @@
+header{
+    text-align: center;
+    background: rgb(59, 155, 155);
+}
+#nav1{
+    text-align: left;
+    background-color: palegoldenrod;
+}
+@mixin prop{
+    border: 2px solid blue;
+    margin: auto;
+    box-shadow:cornflowerblue;
+    background-color:wheat;
+    height: 400px;
+    width: 500px;
+}
+
+ #div1 {
+    @include prop;
+
+}
+
+#div2 {
+    @include prop;
+
+}
+
+#div3 {
+    @include prop;
+
+}
+
+#div4 {
+    @include prop;
+
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 20px;
+    background-color: black;;
+}
+
+@media all and (min-width:900px) and (max-width:1200px)
+{
+    .wrapper{
+        background:rgb(83, 6, 19);
+        width: 100%;
+    }
+   
+}
+   
+@media all and (min-width:768px) and (max-width:960px)
+{
+    .wrapper{
+        background:plum;
+        width: 100%;
+    }
+    
+}
+    
+@media all and (min-width:481px) and (max-width:768px)
+{
+    .wrapper{
+        background:salmon;
+        width: 100%;
+    }
+    
+  
+}

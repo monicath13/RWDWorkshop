@@ -1,0 +1,80 @@
+header {
+  text-align: center;
+  background: #3b9b9b;
+}
+
+#nav1 {
+  text-align: left;
+  background-color: palegoldenrod;
+}
+
+#div1 {
+  border: 2px solid blue;
+  margin: auto;
+  -webkit-box-shadow: cornflowerblue;
+          box-shadow: cornflowerblue;
+  background-color: wheat;
+  height: 400px;
+  width: 500px;
+}
+
+#div2 {
+  border: 2px solid blue;
+  margin: auto;
+  -webkit-box-shadow: cornflowerblue;
+          box-shadow: cornflowerblue;
+  background-color: wheat;
+  height: 400px;
+  width: 500px;
+}
+
+#div3 {
+  border: 2px solid blue;
+  margin: auto;
+  -webkit-box-shadow: cornflowerblue;
+          box-shadow: cornflowerblue;
+  background-color: wheat;
+  height: 400px;
+  width: 500px;
+}
+
+#div4 {
+  border: 2px solid blue;
+  margin: auto;
+  -webkit-box-shadow: cornflowerblue;
+          box-shadow: cornflowerblue;
+  background-color: wheat;
+  height: 400px;
+  width: 500px;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 20px;
+  background-color: black;
+}
+
+@media all and (min-width: 900px) and (max-width: 1200px) {
+  .wrapper {
+    background: #530613;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 960px) {
+  .wrapper {
+    background: plum;
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .wrapper {
+    background: salmon;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
